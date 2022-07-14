@@ -1,6 +1,3 @@
-import string
-
-
 hrs = input("Enter Hours:")
 h = float(hrs)
 rate = input("Enter Rate per Hours:")
