@@ -1,7 +1,5 @@
 text = "X-DSPAM-Confidence:    0.8475"
-start = text.find("0")
+start = text.find(":")
 # print(start)
-finish = text.find("5")
-# print(finish)
-number = float(text[start : finish + 1])
+number = float(text[start + 1 :].lstrip())
 print(number)
