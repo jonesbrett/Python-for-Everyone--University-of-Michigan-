@@ -4,10 +4,6 @@ import ssl
 from urllib.parse import urljoin
 from urllib.parse import urlparse
 from urllib.request import urlopen
-
-import sys
-
-sys.path.append(".")
 from bs4 import BeautifulSoup
 
 # Ignore SSL certificate errors
