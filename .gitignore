@@ -1,2 +1,4 @@
 /.vscode
 /content.sqlite
+/index.sqlite
+/mappings.sqlite
