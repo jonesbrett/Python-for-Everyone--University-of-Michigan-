@@ -2,8 +2,8 @@ import sqlite3
 import time
 import zlib
 
-conn = sqlite3.connect("sp500.sqlite")
-cur = conn.cursor()
+connection = sqlite3.connect("sp500.sqlite")
+cur = connection.cursor()
 
 cur.execute("SELECT id, sender FROM Senders")
 senders = dict()
